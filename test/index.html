@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Test: ¿tu empresa funcionaría un mes sin ti? · Dineto</title>
+<meta name="description" content="15 preguntas de sí o no, 3 minutos y tu resultado al momento: cuánto depende tu empresa de ti y por dónde empezar.">
+<link rel="canonical" href="https://dineto.es/test/">
+<meta name="theme-color" content="#012C18">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Dineto">
+<meta property="og:url" content="https://dineto.es/test/">
+<meta property="og:title" content="¿Tu empresa funcionaría un mes sin ti? Haz el test">
+<meta property="og:description" content="15 preguntas · 3 minutos · resultado al momento.">
+<meta property="og:image" content="https://dineto.es/assets/img/og-test.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../assets/img/favicon-64.png" sizes="64x64" type="image/png">
+<link rel="icon" href="../assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<link rel="preload" href="../assets/fonts/baskerville-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/plex-sans-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/noto-serif-jp-700-shindan.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/dineto.css">
+<link rel="stylesheet" href="../assets/css/test.css">
+<script defer src="../assets/js/core.js"></script>
+<script defer src="../assets/js/test.js"></script>
+</head>
+<body class="test-page dark">
+<a class="skip" href="#app">Saltar al test</a>
+
+<header class="t-head">
+  <div class="wrap t-head__inner">
+    <span class="brand" aria-label="Dineto" role="img">
+      <span class="brand__mark"><img class="brand__logo brand__logo--light" src="../assets/img/logo-light.png" width="720" height="174" alt="" decoding="async"><img class="brand__logo brand__logo--dark" src="../assets/img/logo-dark.png" width="720" height="174" alt="" decoding="async"></span>
+      <span class="seal" aria-hidden="true">診</span>
+    </span>
+    <p class="t-head__meta" data-meta>Test Shindan · gratis</p>
+  </div>
+</header>
+
+<main id="app" class="t-main">
+  <!-- Entrada -->
+  <section class="t-intro" data-screen="intro" aria-labelledby="t-title">
+    <div class="watermark" aria-hidden="true" data-wm="診断"></div>
+    <div class="wrap t-intro__grid">
+      <div class="t-intro__copy">
+        <h1 id="t-title">¿Tu empresa funcionaría un mes sin ti?</h1>
+        <p class="t-facts"><span>15 preguntas</span><span>3 minutos</span><span>Resultado al momento</span></p>
+        <div class="t-intro__actions">
+          <button class="btn btn--lg" type="button" data-start>Empezar el test <span class="arr" aria-hidden="true">→</span></button>
+          <button class="link-arrow t-resume" type="button" data-restart hidden>Empezar de nuevo</button>
+        </div>
+        <p class="micro"><span>Solo sí o no</span><span>Nada que escribir</span><span>Tus datos se quedan en la UE</span></p>
+        <ul class="t-gets">
+          <li><strong>Tu nota de 0 a 15</strong>Cuánto depende hoy tu empresa de ti.</li>
+          <li><strong>Tu bloque más flojo</strong>Tú, tus números o tu equipo.</li>
+          <li><strong>Por dónde empezaríamos</strong>Lo primero que haríamos en tu empresa.</li>
+        </ul>
+      </div>
+      <div class="t-preview" aria-hidden="true">
+        <div class="t-card t-card--demo">
+          <div class="t-card__top"><span>Bloque 1 de 3 · Tú</span><span data-demo-n>Pregunta 1 de 15</span></div>
+          <div class="t-progress"><span style="width:7%" data-demo-bar></span></div>
+          <p class="t-card__q" data-demo-q>¿Te has ido una semana de vacaciones este año sin mirar el correo?</p>
+          <div class="t-yn"><span class="t-yn__b">Sí</span><span class="t-yn__b">No</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Preguntas, cualificación y datos: los pinta test.js -->
+  <section class="t-run" data-screen="run" hidden aria-live="polite">
+    <div class="wrap t-run__wrap">
+      <div class="t-card t-card--live" data-card></div>
+    </div>
+  </section>
+
+  <!-- Resultado -->
+  <section class="t-result paper" data-screen="result" hidden aria-labelledby="r-title">
+    <div class="wrap t-result__grid" data-result></div>
+  </section>
+
+  <noscript>
+    <div class="wrap" style="padding:120px 0">
+      <p class="lead">El test necesita JavaScript. Si prefieres, <a href="https://wa.me/34647299239">escríbenos por WhatsApp</a> y lo hacemos contigo en 10 minutos.</p>
+    </div>
+  </noscript>
+</main>
+
+<footer class="t-foot">
+  <div class="wrap t-foot__inner">
+    <p>© <span data-year>2026</span> Dineto · <a href="mailto:hola@dineto.es">hola@dineto.es</a></p>
+    <nav aria-label="Legal"><a href="../legal/#aviso-legal">Aviso legal</a><a href="../legal/#privacidad">Privacidad</a><a href="../legal/#cookies">Cookies</a></nav>
+  </div>
+</footer>
+</body>
+</html>
